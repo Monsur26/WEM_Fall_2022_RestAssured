@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EmployeeRestAPISuite">
+
+    <test thread-count="5" name="UserRestAPI">
+        <classes>
+            <class name="basicApproach.TC001GET"></class>
+            <class name="basicApproach.TC002"></class>
+            <class name="basicApproach.TC001Dynamic"></class>
+            <class name="basicApproach.TC002Dynamic"></class>
+
+        </classes>
+    </test>
+</suite>
